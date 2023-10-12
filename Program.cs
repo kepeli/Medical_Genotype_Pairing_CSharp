@@ -10,7 +10,7 @@ namespace C_practise
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("ALL INPUTS MUST BE IN CAPSLOCKS");
             Console.WriteLine("INPUT THE GENOTYPE OF PARTNER X:");
             string partnerX = Console.ReadLine();
 
@@ -44,21 +44,25 @@ namespace C_practise
                 (partnerX == "AS" && partnerY == "SC") ||
                 (partnerX == "AS" && partnerY == "AC") ||
                 (partnerX == "AS" && partnerY == "CC") ||
+
                 (partnerX == "SS" && partnerY == "AS") ||
                 (partnerX == "SS" && partnerY == "SS") ||
                 (partnerX == "SS" && partnerY == "SC") ||
                 (partnerX == "SS" && partnerY == "AC") ||
                 (partnerX == "SS" && partnerY == "CC") ||
+
                 (partnerX == "SC" && partnerY == "AS") ||
                 (partnerX == "SC" && partnerY == "SS") ||
                 (partnerX == "SC" && partnerY == "SC") ||
                 (partnerX == "SC" && partnerY == "AC") ||
                 (partnerX == "SC" && partnerY == "CC") ||
+
                 (partnerX == "CC" && partnerY == "AS") ||
                 (partnerX == "CC" && partnerY == "SS") ||
                 (partnerX == "CC" && partnerY == "SC") ||
                 (partnerX == "CC" && partnerY == "AC") ||
                 (partnerX == "CC" && partnerY == "CC") ||
+
                 (partnerX == "AC" && partnerY == "AS") ||
                 (partnerX == "AC" && partnerY == "SS") ||
                 (partnerX == "AC" && partnerY == "SC") ||
